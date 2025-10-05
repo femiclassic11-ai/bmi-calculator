@@ -1,9 +1,9 @@
 function ability(){
 
     //variables
-    const personName = ("Mr John");
-    const weightKg = (75);
-    const heightM = (1.8);
+    const personName = document.getElementById("name").value;
+    const weightKg = parseFloat(document.getElementById("weight").value);
+    const heightM = parseFloat(document.getElementById("height").value);
 
 
     const highSquared = (heightM * heightM);
@@ -33,5 +33,5 @@ function ability(){
   <p><strong>Underweight:</strong> ${isUnderWeight}</p>
   <p><strong>Normal Weight:</strong> ${isNormalWeight}</p>
   <p><strong>Overweight:</strong> ${isOverWeight}</p>
-  <p><strong>High Risk Alert:</strong> ${isHighRisk ? "⚠️ Yes" : "No"}</p>`;
+  <p><strong>High Risk Alert:</strong> ${isHighRisk ? "⚠️  Yes" : "No"}</p>`;
 }
