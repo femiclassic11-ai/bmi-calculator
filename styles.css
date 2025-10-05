@@ -9,6 +9,10 @@
   h1 {
     color: #079f23;
     margin-bottom: 30px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 800;
   }
 
   .top, .top2, div {
@@ -16,7 +20,7 @@
   }
 
   label {
-    font-size: 1.2rem;
+    font-size: 13px;
     font-weight: bold;
     color: #079f23;;
   }
@@ -25,26 +29,24 @@
   input[type="number"] {
     width: 300px;
     padding: 15px;
-    font-size: 1.1rem;
+    font-size: 10px;
     font-weight: bold;
     border: 2px solid #3bf657;
     border-radius: 8px;
     outline: none;
     text-align: center;
-    transition: all 0.3s ease;
   }
 
   input[type="text"]:focus,
   input[type="number"]:focus {
-    border-color: #3bf657;
     background-color: #eff6ff;
-    box-shadow: 0 0 8px rgba(30, 64, 175, 0.4);
+    box-shadow: 0 0 20px rgba(30, 64, 175, 0.4);
   }
 
   button {
     margin-top: 20px;
     padding: 15px 40px;
-    font-size: 1.2rem;
+    font-size: 20px;
     font-weight: bold;
     background-color: #3bf657;
     color: white;
@@ -60,8 +62,10 @@
 
   #results {
     margin-top: 30px;
-    font-size: 1.1rem;
+    font-size: 15px;
     font-style: italic;
     color: #3bf657;
   }
 
+ 
+ 
